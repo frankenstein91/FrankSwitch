@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:SwitchHardware-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,12 +47,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L USB_C_Receptacle J?
+L USB_C_Receptacle USBTypCin1
 U 1 1 5B141445
 P 1700 2500
-F 0 "J?" H 1300 3950 50  0000 L CNN
+F 0 "USBTypCin1" H 1300 3950 50  0000 L CNN
 F 1 "USB_C_Receptacle" H 2100 3950 50  0000 R CNN
-F 2 "" H 1850 2500 50  0001 C CNN
+F 2 "Connectors_USB:USB_C_Receptacle_Amphenol_12401548E4-2A_CircularHoles" H 1850 2500 50  0001 C CNN
 F 3 "" H 1850 2500 50  0001 C CNN
 	1    1700 2500
 	1    0    0    -1  
